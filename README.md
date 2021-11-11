@@ -1,18 +1,16 @@
 <p align="center" >
-  <img src="https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/master/Snapshots/Slogan.png" alt="NXNavigationExtension" title="NXNavigationExtension">
+  <img src="https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/3.x/Snapshots/Slogan.png" alt="NXNavigationExtension" title="NXNavigationExtension">
 </p>
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NXNavigationExtension.svg?style=flat)](https://img.shields.io/cocoapods/v/NXNavigationExtension.svg) ![Language](https://img.shields.io/github/languages/top/l1dan/NXNavigationExtension.svg?style=flat) [![MIT Licence](https://img.shields.io/github/license/l1dan/NXNavigationExtension.svg?style=flat)](https://opensource.org/licenses/mit-license.php) [![Platform](https://img.shields.io/cocoapods/p/NXNavigationExtension.svg?style=flat)](https://github.com/l1Dan/NXNavigationExtension/blob/master/README.md) [![GitHub last commit](https://img.shields.io/github/last-commit/l1Dan/NXNavigationExtension.svg?style=flat)](https://img.shields.io/github/last-commit/l1Dan/NXNavigationExtension)
-
-🔥 NXNavigationExtension 是为 iOS 应用设计的一个轻量级的导航栏处理框架。框架对现有代码入侵非常小，只需要简单的几个方法调用就可以满足大部分的应用场景。NXNavigationExtension 和 [示例代码](https://github.com/l1Dan/NXNavigationExtension/archive/master.zip) 都已经适配暗黑模式（Dark Mode）。
+🔥 NXNavigationExtension 是为 iOS 应用设计的一个轻量级的导航栏处理框架。框架对现有代码入侵非常小，只需要简单的几个方法调用就可以满足大部分的应用场景。NXNavigationExtension 和 [示例代码](https://github.com/l1Dan/NXNavigationExtension/archive/refs/heads/3.x.zip) 都已经适配暗黑模式（Dark Mode）。
 
 ## 🎉 预览
 
-![Preview](https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/master/Snapshots/Preview.png)
+![Preview](https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/3.x/Snapshots/Preview.png)
 
 ## 🌟 开始使用
 
-下载 [NXNavigationExtension](https://github.com/l1Dan/NXNavigationExtension/archive/master.zip) 示例代码。
+下载 [NXNavigationExtension](https://github.com/l1Dan/NXNavigationExtension/archive/refs/heads/3.x.zip) 示例代码。
 
 ## 使用 CocoaPods 安装
 
@@ -130,7 +128,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor customTitleColor];
 
 ### 修改返回按钮箭头颜色
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
 
 **导航栏返回按钮颜色默认使用系统蓝色 `[UIColor systemBlueColor]`，要改变返回按钮颜色可以使用以下方式配合：**
 
@@ -147,7 +145,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 ## 修改系统返回按钮文字
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Common/Controllers/RandomColorViewController.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Common/Controllers/RandomColorViewController.m)
 
 ```objc
 // 需要设置使用系统返回按钮，这样才会有效果
@@ -162,7 +160,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 ## 修改导航栏标题颜色
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
 
 ```objc
 - (NSDictionary<NSAttributedStringKey,id> *)nx_titleTextAttributes {
@@ -172,7 +170,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 #### 修改导航栏背景颜色
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController01_BackgroundColor.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController01_BackgroundColor.m)
 
 ```objc
 - (UIColor *)nx_navigationBarBackgroundColor {
@@ -182,17 +180,17 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 #### 修改导航栏背景图片
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController02_BackgroundImage.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController02_BackgroundImage.m)
 
 ```objc
 - (UIImage *)nx_navigationBarBackgroundImage {
-    return UIImage.navigationBarbackgroundImage;
+    return UIImage.navigationBarBackgroundImage;
 }
 ```
 
 #### 设置导航栏透明
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController03_Transparent.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController03_Transparent.m)
 
 ```objc
 - (UIColor *)nx_navigationBarBackgroundColor {
@@ -202,7 +200,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 #### 实现系统导航栏模糊效果
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController04_LikeSystemBlurNavigationBar.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController04_LikeSystemBlurNavigationBar.m)
 
 ```objc
 - (UIColor *)nx_navigationBarBackgroundColor {
@@ -216,7 +214,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 ### 修改导航栏底部线条颜色
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController05_ShadowColor.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController05_ShadowColor.m)
 
 ```objc
 - (UIColor *)nx_shadowImageTintColor {
@@ -224,19 +222,9 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 }
 ```
 
-### 修改导航栏底部线条颜色图片
+### 修改导航栏底部线条图片
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController06_ShadowImage.m)
-
-```objc
-- (UIColor *)nx_shadowImageTintColor {
-    return [UIColor redColor];
-}
-```
-
-### 修改导航栏底部线条颜色图片
-
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController06_ShadowImage.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController06_ShadowImage.m)
 
 ```objc
 - (UIImage *)nx_shadowImage {
@@ -246,7 +234,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 ### 自定义返回按钮图片
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController07_CustomBackButtonImage.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController07_CustomBackButtonImage.m)
 
 ```objc
 - (UIImage *)nx_backImage {
@@ -256,7 +244,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 ### 自定义返回按钮
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController08_CustomBackButton.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Basic/Controllers/ViewController08_CustomBackButton.m)
 
 ```objc
 - (UIView *)nx_backButtonCustomView {
@@ -274,7 +262,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 #### 禁用滑动返回手势
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController01_DisablePopGesture.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController01_DisablePopGesture.m)
 
 ```objc
 - (BOOL)nx_disableInteractivePopGesture {
@@ -284,7 +272,7 @@ configuration.navigationBarAppearance.tintColor = [UIColor redColor];
 
 #### 启用全屏滑动返回手势
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController02_FullPopGesture.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController02_FullPopGesture.m)
 
 - 局部有效（在所处页面设置）
 
@@ -303,7 +291,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 
 #### 导航栏返回事件拦截
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController03_BackEventIntercept.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController03_BackEventIntercept.m)
 
 需要遵守协议 `<NXNavigationInteractable>`，实现代理方法：
 
@@ -356,7 +344,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 
 ### 重定向任一控制器跳转
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController04_RedirectViewController.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController04_RedirectViewController.m)
 
 - 以重定向到 `RandomColorViewController` 为例，如果之前有 Push 过 `RandomColorViewController` 的实例，则最后会跳转到实例中，如果没有则会调用 `block`，如果 `block == NULL` 或者 `return nil;` 则重定向跳转不会发生。
 - 执行重定向操作之后，并不会直接跳转到对应的视图控制器，如果需要 `跳转` 操作，可以调用 `popViewControllerAnimated:` 方法返回页面，也可以使用手势滑动返回页面，还可以点击返回按钮返回页面。
@@ -377,11 +365,11 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 [self.navigationController popViewControllerAnimated:YES];
 ```
 
-意思是：首先查找 `self.navigationController.ViewConrollers` 是否存在一个类型为 `[RandomColorViewController class]` 的实例对象，如果存在则重定向到此视图控制器，没有则使用 `[[RandomColorViewController alloc] init]` 来创建一个新的 `[RandomColorViewController class]` 的实例对象。
+意思是：首先查找 `self.navigationController.ViewControllers` 是否存在一个类型为 `[RandomColorViewController class]` 的实例对象，如果存在则重定向到此视图控制器，没有则使用 `[[RandomColorViewController alloc] init]` 来创建一个新的 `[RandomColorViewController class]` 的实例对象。
 
 ### 导航栏点击事件穿透到底部
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController06_ClickEventHitToBack.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController06_ClickEventHitToBack.m)
 
 ```objc
 - (BOOL)nx_translucentNavigationBar {
@@ -391,7 +379,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 
 ### 动态修改导航栏样式
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController07_ScrollChangeNavigationBar.m)
 
 ```objc
 - (BOOL)nx_contentViewWithoutNavigationBar {
@@ -403,7 +391,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 
 ### 更新导航栏样式
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Common/Controllers/RandomColorViewController.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Common/Controllers/RandomColorViewController.m)
 
 ```objc
 [self nx_setNeedsNavigationBarAppearanceUpdate];
@@ -423,7 +411,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 
 ### 长按返回按钮显示菜单功能
 
-📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/master/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController04_RedirectViewController.m)
+📝 [示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Advanced/Controllers/ViewController04_RedirectViewController.m)
 
 ```objc
 - (BOOL)nx_useSystemBackButton {
@@ -431,7 +419,7 @@ configuration.navigationControllerPreferences.fullScreenInteractivePopGestureEna
 }
 ```
 
-![BackButtonMenu](https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/master/Snapshots/BackButtonMenu.png)
+![BackButtonMenu](https://raw.githubusercontent.com/l1Dan/NXNavigationExtension/3.x/Snapshots/BackButtonMenu.png)
 
 ## FAQ 常见问题
 
@@ -443,19 +431,19 @@ A：因为 `UIImagePickerController` 和 `PHPickerViewController` 里面的 UINa
 
 Q：为什么 iOS13 之前使用 `self.navigationItem.searchController` 设置的 `UISearchBar` 无法跟随导航栏的变化而变化，iOS13 之后的却可以呢？
 
-A：因为在 iOS13 之前导航栏中不包含 `UISearchBar`，iOS13 之后导航栏才包含 `UISearchBar` 的。具体使用请参考[示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/main/NXNavigationExtensionDemo/Feature/Common/Controllers/FeatureTableViewController.m)。
+A：因为在 iOS13 之前导航栏中不包含 `UISearchBar`，iOS13 之后导航栏才包含 `UISearchBar` 的。具体使用请参考[示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Common/Controllers/FeatureTableViewController.m)。
 
 ---
 
 Q：如何解决 `UIScrollView` 和 `UIPageViewController` 手势冲突?
 
-A：使用 [UIScrollView](https://github.com/l1Dan/NXNavigationExtension/blob/main/NXNavigationExtensionDemo/Feature/Tests/Controllers/ViewController06_ScrollView.m) 和 [UIPageViewController](https://github.com/l1Dan/NXNavigationExtension/blob/main/NXNavigationExtensionDemo/Feature/Tests/Controllers/ViewController07_PageViewController.m) 手势冲突解决方案。
+A：使用 [UIScrollView](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Tests/Controllers/ViewController06_ScrollView.m) 和 [UIPageViewController](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Tests/Controllers/ViewController07_PageViewController.m) 手势冲突解决方案。
 
 ---
 
 Q：为什么 `NXNavigationExtension` 框架不包含控制器的转场动画功能？
 
-A：原则就是尽可能的保持框架的简单轻量，将更多的精力花在框架本身的稳定性上，尽可能地使用系统原有功能。转场动画功能并不适用于所有业务场景，另外也不属于这个框架的功能。如果有转场动画的需求需要开发者自己实现，也可以参考[VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary)，或者参考[示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/main/NXNavigationExtensionDemo/Feature/Drawer/DrawerAnimationController.m)。
+A：原则就是尽可能的保持框架的简单轻量，将更多的精力花在框架本身的稳定性上，尽可能地使用系统原有功能。转场动画功能并不适用于所有业务场景，另外也不属于这个框架的功能。如果有转场动画的需求需要开发者自己实现，也可以参考[VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary)，或者参考[示例代码](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/NXNavigationExtensionDemo/Feature/Drawer/DrawerAnimationController.m)。
 
 ---
 
@@ -470,4 +458,4 @@ A：因为导航栏的系统返回按钮是用 `self.navigationItem.backBarButto
 
 ## 📄 协议
 
-NXNavigationExtension 框架是在 MIT 许可下发布的。详情请参见 [LICENSE](https://github.com/l1Dan/NXNavigationExtension/blob/master/LICENSE)。
+NXNavigationExtension 框架是在 MIT 许可下发布的。详情请参见 [LICENSE](https://github.com/l1Dan/NXNavigationExtension/blob/3.x/LICENSE)。
